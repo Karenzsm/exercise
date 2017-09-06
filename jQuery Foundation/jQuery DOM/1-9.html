@@ -35,10 +35,17 @@
         // });
         // console.log(obj);
 
-        var text=$('li').map(function(){
-         return this.innerText;
-        })
-        console.log(text);
+        // var text=$('li').map(function(){
+        //  return this.innerText;
+        // })
+        // console.log(text);
+
+        var arr=[];
+        $('li').each(function(index,domElement){
+           arr[index]=this.innerHTML;
+
+        });
+        console.log(arr);
     });
 </script>
 </body>
