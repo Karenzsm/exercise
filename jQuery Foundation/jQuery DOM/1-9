@@ -23,17 +23,22 @@
 <script src="http://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
 <script>
     $(function () {
-        var arrs=[];
-        $('li').map(function(index,domElement){
-            arrs.push($(this).text());
-        });
-        console.log(arrs);
+        // var arrs=[];
+        // $('li').map(function(index,domElement){
+        //     arrs.push($(this).text());
+        // });
+        // console.log(arrs);
 
         // var obj=[];
         // $('li').each(function(){
         //     obj.push($(this).text());
         // });
         // console.log(obj);
+
+        var text=$('li').map(function(){
+         return this.innerText;
+        })
+        console.log(text);
     });
 </script>
 </body>
