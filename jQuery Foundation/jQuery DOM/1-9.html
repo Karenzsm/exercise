@@ -32,8 +32,9 @@
         // var obj=[];
         // $('li').each(function(){
         //     obj.push($(this).text());
-        // });
-        // console.log(obj);
+//         });
+//         //document.write(obj);  //document.write()会将页面重写
+//         console.log(obj);
 
         // var text=$('li').map(function(){
         //  return this.innerText;
@@ -43,7 +44,6 @@
         var arr=[];
         $('li').each(function(index,domElement){
            arr[index]=this.innerHTML;
-
         });
         console.log(arr);
     });
