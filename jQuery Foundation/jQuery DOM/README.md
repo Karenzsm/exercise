@@ -17,3 +17,7 @@
  效果图如下：
  
  ![image](http://climg.mukewang.com/58c0d3c30001f75e04350464.jpg)
+
+4-9
+
+获取HTML文档中表单元素的值，并放入到一个对象中，对象由表单项的name和value组成。
